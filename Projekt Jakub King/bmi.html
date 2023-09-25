@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="bmi.css">
+  </head>
+  <body>
+    <nav class="navigation">
+        <h1>
+            Fit4Ever
+            <div></div>
+            <div></div>
+        </h1>
+        <ul>
+          <li><a href="index.html">Główna</a></li>
+          <li><a href="bmi.html">Bmi</a></li>
+          <li><a href="Kalorie.html">CPM</a></li>
+          <li><a href="makro.html">Makro</a></li>
+          <li><a href="bodyMap.html">Ćwiczenia</a></li>
+        </ul>
+        <p>&copy; 2023 Jakub King</p>
+    </nav>
+    <div class="container">
+            <div class="row">
+                <span id="title"> KALKULATOR BMI</span>
+            </div>
+            <div class="row">
+              <span id="plec">Płeć:</span>
+                <select class="select-plec" id="plec_select">
+                  <option value="M">Meżczyzna</option>
+                  <option value="F">Kobieta</option>
+                </select>
+            </div>
+            <div class="row">
+                <input type="range" min="10" max="100" value="10" id="lat">
+                <span id="lat-val">10 lat</span>
+            </div>
+            <div class="row">
+                <input type="range" min="20" max="200" value="20" id="weight">
+                <span id="weight-val">20 kg</span>
+            </div>
+            <div class="row">
+                <input type="range" min="100" max="250" value="100" id="height">
+                <span id="height-val">100 cm</span>
+            </div>
+            <p id="result">20.0</p>
+            <p id="category">Normalna waga</p>
+            <div class="row1">
+              <div class="box-text">
+                Wskaźnik WHR
+              </div>
+            </div>
+            <div class="row1">
+              <div class="box-kalorie1">
+                Podaj obwód tali w (cm)
+              </div>
+              <div class="box-posilki1">
+                Podaj obwód bioder w (cm)
+              </div>
+            </div>
+            <div class="row1">
+              <div class="box-talia">
+                <input type="number" id="talia" name="talia" value="82">
+              </div>
+              <div class="box-biodra">
+                <input type="number" id="biodra"name="biodra" value="97">
+              </div>
+            </div>
+            <p id="result1">Wynik wskaźnika WHR = 0,845</p>
+            <p id="category1">Rodzaj Figury: Rodzaj Gynoidalny, Typu Gruszka</p>
+        </div>
+    <!-- partial -->
+      <script  src="js/bmi.js"></script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+body{
+    height: 100vh;
+    background: lightgray;
+    /* background: linear-gradient(
+        135deg,
+        #61d954,
+        #2ebf75 */
+    );
+}
+.container {
+        background-color: #ffffff;
+        padding: 40px 30px;
+        width: 1200px;
+        min-width: 400px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 55%;
+        border-radius: 5px;
+        font-family: 'Poppins',sans-serif;
+        box-shadow: 25px 25px 30px rgba(0,0,0,0.15);
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row span{
+    font-weight: 500;
+}
+#title {
+  text-align: center;
+  width: 1000px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: black;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.foto1{
+  background-image: url("foto/BMI.jpg");
+  width: 400px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 30px;
+}
+.foto2{
+  background-image: url("foto/BMR.png");
+  width: 400px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 30px;
+}
+.foto3{
+  background-image: url("foto/Makro.png");
+  width: 400px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 30px;
+}
+.foto4{
+  background-image: url("foto/cwiczenia.jpg");
+  width: 400px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 30px;
+}
+.tekst {
+  display:flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  height: 300px;
+  width: 400px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,180 @@
+body{
+    height: 100vh;
+    background: lightgray;
+    /* background: linear-gradient(
+        135deg,
+        #61d954,
+        #2ebf75 
+    );*/
+}
+
+.rs-tooltip.rs-edit {
+    padding: 5px 8px;
+}
+.rs-full .rs-tooltip {
+    top: 60%;
+    left: 50%;
+}
+.rs-tooltip-text {
+    font-family: verdana;
+    font-size: 30px;
+    border-radius: 7px;
+    text-align: center;
+    color: black;
+}
+.rs-tooltip {
+    position: absolute;
+    cursor: default;
+    border: 1px solid transparent;
+    z-index: 10;
+}
+.container {
+        background-color: #ffffff;
+        padding: 40px 30px;
+        width: 1200px;
+        min-width: 400px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 55%;
+        border-radius: 5px;
+        font-family: 'Poppins',sans-serif;
+        box-shadow: 25px 25px 30px rgba(0,0,0,0.15);
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+}
+.box-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 80px;
+    color: black;
+    font-size: 20px;
+}
+.pod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height:50px;
+    color: black;
+    top: 530px;
+    font-size: 18px;
+}
+.box-radio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 70px;
+  color: black;
+  font-size: 18px;
+}
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 20px 10px 20px 10px;
+    padding: initial;
+    border: initial;
+}
+label {
+  margin-left: 10px;
+  text-align: center;
+}
+input[type="number" i] {
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.box-kalorie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 60px;
+  color: black;
+  font-size: 16px;
+}
+.box-posilki{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 60px;
+  color: black;
+  font-size: 16px;
+}
+.box-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 40px;
+}
+.box-button a {
+  color: black;
+  text-decoration: none;
+}
+button {
+    width: 216px;
+    height: 40px;
+    margin: 0em;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+    cursor: pointer;
+}
+.b , .w , .t {
+  color: black;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+}
+#dzien , #posilek {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.box-tilte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 80px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box-kalorie1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 30px;
+  color: black;
+  font-size: 16px;
+}
+.box-posilki1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 30px;
+  color: black;
+  font-size: 16px;
+}

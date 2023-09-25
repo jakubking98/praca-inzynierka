@@ -1,0 +1,219 @@
+body{
+    height: 100vh;
+    background: lightgray;
+    /* background: linear-gradient(
+        135deg,
+        #61d954,
+        #2ebf75 
+    );*/
+}
+.container {
+        background-color: #ffffff;
+        padding: 40px 30px;
+        width: 1200px;
+        min-width: 400px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 55%;
+        border-radius: 5px;
+        font-family: 'Poppins',sans-serif;
+        box-shadow: 25px 25px 30px rgba(0,0,0,0.15);
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.row span{
+    font-weight: 500;
+}
+#title {
+  text-align: center;
+  width: 700px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: black;
+  font-weight: bold;
+}
+.p1{
+  position: static;
+}
+.p2 {
+    width: 114px;
+    height: 27px;
+    position: absolute;
+    left: 775px;
+    top: 222px;
+    filter: grayscale(100%);
+    z-index: 2;
+}
+.p3 {
+    width: 68px;
+    height: 79px;
+    position: absolute;
+    left: 798px;
+    top: 247px;
+    filter: grayscale(100%);
+    z-index: 2;
+}
+.p4 {
+    width: 204px;
+    height: 45px;
+    position: absolute;
+    left: 730px;
+    top: 236px;
+    filter: grayscale(100%);
+    z-index: 1;
+}
+.p5 {
+    width: 62px;
+    height: 105px;
+    position: absolute;
+    left: 801px;
+    top: 315px;
+    filter: grayscale(100%);
+    z-index: 2;
+}
+.p6 {
+    width: 149px;
+    height: 174px;
+    position: absolute;
+    left: 758px;
+    top: 246px;
+    filter: grayscale(100%);
+    z-index: 1;
+}
+.p7 {
+    width: 257px;
+    height: 76px;
+    position: absolute;
+    left: 704px;
+    top: 274px;
+    filter: grayscale(100%);
+    z-index: 0;
+}
+.p8 {
+    width: 349px;
+    height: 95px;
+    position: absolute;
+    left: 658px;
+    top: 332px;
+    filter: grayscale(100%);
+    z-index: 0;
+}
+.p9 {
+    width: 110px;
+    height: 76px;
+    position: absolute;
+    left: 778px;
+    top: 404px;
+    filter: grayscale(100%);
+    z-index: 2;
+}
+.p10 {
+    width: 147px;
+    height: 196px;
+    position: absolute;
+    left: 759px;
+    top: 410px;
+    filter: grayscale(100%);
+    z-index: 1;
+}
+.p11 {
+    width: 163px;
+    height: 73px;
+    position: absolute;
+    left: 751px;
+    top: 624px;
+    filter: grayscale(100%);
+    z-index: 1;
+}
+.p2:hover , .p3:hover , .p4:hover , .p5:hover , .p6:hover , .p7:hover , .p8:hover , .p9:hover , .p10:hover , .p11:hover {
+    filter: grayscale(0%);
+}
+.l1 {
+    width: 109px;
+    height: 23px;
+    position: absolute;
+    left: 381px;
+    top: 215px;
+    filter: grayscale(100%);
+    z-index: 2;
+}
+.l2 {
+    width: 210px;
+    height: 52px;
+    position: absolute;
+    left: 331px;
+    top: 236px;
+    filter: grayscale(100%);
+    z-index: 1;
+}
+.l3 {
+    width: 163px;
+    height: 69px;
+    position: absolute;
+    left: 354px;
+    top: 239px;
+    filter: grayscale(100%);
+    z-index: 1;
+}
+.l4 {
+    width: 251px;
+    height: 69px;
+    position: absolute;
+    left: 310px;
+    top: 284px;
+    filter: grayscale(100%);
+    z-index: 0;
+}
+.l5 {
+    width: 349px;
+    height: 93px;
+    position: absolute;
+    left: 261px;
+    top: 328px;
+    filter: grayscale(100%);
+    z-index: 0;
+}
+.l6 {
+    width: 144px;
+    height: 121px;
+    position: absolute;
+    left: 363px;
+    top: 289px;
+    filter: grayscale(100%);
+    z-index: 1;
+}
+.l7 {
+    width: 66px;
+    height: 145px;
+    position: absolute;
+    left: 403px;
+    top: 303px;
+    filter: grayscale(100%);
+    z-index: 2;
+}
+.l8 {
+    width: 147px;
+    height: 192px;
+    position: absolute;
+    left: 362px;
+    top: 411px;
+    filter: grayscale(100%);
+    z-index: 1;
+}
+.l9 {
+    width: 157px;
+    height: 95px;
+    position: absolute;
+    left: 357px;
+    top: 613px;
+    filter: grayscale(100%);
+    z-index: 1;
+}
+.l1:hover , .l2:hover , .l3:hover , .l4:hover , .l5:hover , .l6:hover , .l7:hover , .l8:hover , .l9:hover {
+    filter: grayscale(0%);
+}

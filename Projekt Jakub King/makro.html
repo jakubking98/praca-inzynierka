@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="navigation.css">
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- roundSlider CSS -->
+    <link rel="stylesheet" href="roundslider.min.css">
+    <!-- roundSlider JS -->
+    <script src="js/roundslider.min.js"></script>
+    <link rel="stylesheet" href="makro.css">
+  </head>
+  <body>
+    <nav class="navigation">
+        <h1>
+            Fit4Ever
+            <div></div>
+            <div></div>
+        </h1>
+        <ul>
+          <li><a href="index.html">Główna</a></li>
+          <li><a href="bmi.html">Bmi</a></li>
+          <li><a href="Kalorie.html">CPM</a></li>
+          <li><a href="makro.html">Makro</a></li>
+          <li><a href="bodyMap.html">Ćwiczenia</a></li>
+        </ul>
+        <p>&copy; 2023 Jakub King</p>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="box-tilte">
+          KALKULATOR MAKROSKŁADNIKÓW
+        </div>
+      </div>
+      <div class="row">
+        <div class="box-text">
+          Wybierz dietę którą chcesz stosować:
+        </div>
+      </div>
+      <div class="row">
+        <div class="box-radio">
+          <input type="radio" id="dieta1" name="dieta" onclick="Makro()">
+          <label for="dieta1">Wysokowęglowodanowa 55/25/20</label>
+          <input type="radio" id="dieta2" name="dieta" onclick="Makro()">
+          <label for="dieta2">Niskowęglowodanowa 25/45/30</label>
+          <input type="radio" id="dieta3" name="dieta" onclick="Makro()">
+          <label for="dieta3">Ketogeniczna 20/20/60</label>
+          <input type="radio" id="dieta4" name="dieta" onclick="Makro()">
+          <label for="dieta4">Strefowa 40/30/30</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="box-kalorie1">
+          Ilość Kalorii
+        </div>
+        <div class="box-posilki1">
+          Ilość Posiłków
+        </div>
+      </div>
+      <div class="row">
+        <div class="box-kalorie">
+          <input type="number" id="kalorie" name="kalorie" value="1200">
+        </div>
+        <div class="box-posilki">
+          <input type="number" id="posilki"name="posilki" value="1">
+        </div>
+      </div>
+      <div class="row">
+        <div class="box-button">
+          <button type="button" name="button"><a href="Kalorie.html">Zapotrzebowanie kaloryczne</a></button>
+        </div>
+        <div class="box-button">
+          <button type="submit" name="button" onclick="Makro()">Policz Makro Składniki</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="box-text">
+          Ilość procentowa makroskładników:
+        </div>
+      </div>
+      <div class="row">
+        <div class="box">
+          <div id="slider"></div>
+          <div class="pod">Węglowodany</div>
+        </div>
+        <div class="box">
+          <div id="slider1"></div>
+          <div class="pod">Białko</div>
+        </div>
+        <div class="box">
+          <div id="slider2"></div>
+          <div class="pod">Tłuszcze</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="w">
+          <div>Gram / Dzień</div>
+          <div class="dzien" id="dzienW">0</div>
+          <div>Gram / Posiłek</div>
+          <div class="posilek" id="posilekW">0</div>
+        </div>
+        <div class="b">
+          <div>Gram / Dzień</div>
+          <div class="dzien" id="dzienB">0</div>
+          <div>Gram / Posiłek</div>
+          <div class="posilek" id="posilekB">0</div>
+        </div>
+        <div class="t">
+          <div>Gram / Dzień</div>
+          <div class="dzien" id="dzienT">0</div>
+          <div>Gram / Posiłek</div>
+          <div class="posilek" id="posilekT">0</div>
+        </div>
+      </div>
+    </div>
+    <!-- partial -->
+    <script  src="js/makro-slider.js"></script>
+    <script  src="js/makro.js"></script>
+  </body>
+</html>
